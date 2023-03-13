@@ -17,6 +17,8 @@ Since it's an MVP, I tried to keep the project simple and stupid(`KISS`) and use
 You can easily run the project in intelliJ IDE or by using gradle commands in command-line:
         `./gradlew build` and `./gradlew run`
 
+OpenAPI:  http://localhost:8080/swagger-ui/index.html
+
 Note: docker-compose.yml is added for creating the MySQL instance.
 
 ## Further Improvements
