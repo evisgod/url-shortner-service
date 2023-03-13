@@ -7,7 +7,9 @@ Two REST API endpoints has been provided:
 Since it's an MVP, I tried to keep the project simple and stupid(`KISS`) and used MySQL for data storage.
 
 ## Normal Flow: 
-    `Once we get the url for shorten, it validates the URL and generates the unique ID w.r.t. TimeStamp and Sequence as mentioned here: https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake
+    `Once we get the url for shorten, it validates the URL and generates the unique ID
+    w.r.t. TimeStamp and Sequence as mentioned here: 
+    https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake
     After encoded to Base62, we store the value to database and return the shorten value`
      
     `LongURL -> Generate Unique ID -> Base62 -> Store to DB`
